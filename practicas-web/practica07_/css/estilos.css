@@ -1,0 +1,99 @@
+
+body {
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+
+header {
+    background-color: #1f2938;
+    color: white;
+    margin-bottom: -30px;
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+header ul {
+    display: inline-block;
+}
+
+
+#imagenCentro img {
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    height: 400px;
+}
+
+#socialmarketing {
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+
+#seccion-uno {
+    background-color: #1f2938;
+    height: 500px;
+    margin-bottom: 220px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+#seccion-dos {
+    text-align: center;
+}
+#seccion-dos li {
+    display: inline-block;
+    margin-top: 30px;
+    width: 300px;
+}
+
+
+#botones button {
+    border-radius: 30px;
+    color: white;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    width: 125px;
+}
+#botones img {
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}
+#botones span {
+    vertical-align: middle;
+}
+#Button1{
+    background-color: #1d4ed8;
+    border: 1px solid #1d4ed8;
+
+}
+#Button2{
+    background-color: #384152;
+    border: 1px solid #384152;
+}
+
+
+.colorblanco {
+    color: white;
+}
+.colorgris {
+    color: rgb(174, 174, 174);
+}
+.logo {
+    margin-right: 430px;
+}
+.letragrande {
+    font-size: 2.0em;
+    font-weight: bold;
+}

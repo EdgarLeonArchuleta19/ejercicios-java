@@ -1,0 +1,100 @@
+
+body {
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header nav{
+    margin-left: 0px;
+}
+
+
+header li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+header ul {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 80px;
+    
+}
+
+footer{
+    margin-top: 100px;
+}
+
+footer  li {
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding: 10px;
+}
+
+footer  ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#section1{
+    margin-top: 50px;
+}
+
+
+#section1 article{
+    display: inline-block;
+
+}
+
+#sec1Art1{
+    width: 60%;
+}
+
+#botonblanco{
+    border-color: #ff0143;
+    background-color: white;
+    border-radius: 5px;
+    color: #ff0143;
+    width: 100px;
+    height: 35px;
+}
+
+#botonrojo{
+    border-color: #ff0143;
+    background-color: #ff0143;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+.letragrande {
+    font-size: 3.0em;
+    font-weight: bold;
+}
+
+.letramediana{
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.letrachica{
+    font-size: 1.3em;
+    font-weight: bold;
+}

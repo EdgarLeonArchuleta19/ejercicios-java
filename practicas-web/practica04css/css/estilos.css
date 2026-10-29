@@ -1,0 +1,78 @@
+html{
+    /* Propiedades personalizables*/
+    --color-verde: #73f33d; 
+    --color-negro: #000000;
+    --color-gris: #949494;
+}
+  body {
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+  }
+
+  header ul li{
+    display: inline-block;
+    padding: 8px 65px;
+    margin-left: -100px;
+  }
+  hr{
+    border-style: dashed;
+  }
+
+
+  /* Footer */
+  footer {
+    padding: 60px 0;
+  }
+  
+  footer section img {
+    max-width: 30px;
+    margin-right: 10px;
+  }
+  
+  footer #seccion04 article {
+  
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 50px;
+    vertical-align: top;
+    
+
+  }
+
+  
+
+  .letra-negra{
+    color: var(--color-negro);
+  }
+  .letra-gris{
+    color: var(--color-gris);
+  }
+  .letra-verde{
+    color: var(--color-verde);
+  }
+  .tam-grande{
+    font-size: 4.3em;
+  }
+  .padre {
+    display: grid;
+    grid-template-columns: 57% 43%;
+  }
+
+  #barra-imagenes{
+    float: right;
+  }  
+
+  #buy-gotoshop{
+    margin-left: 650px;
+  }
+  
+
+  #videos img{
+  margin-top: 20px;
+  display: inline-block;
+  width: 280px;
+  height: 230px;
+  }
+  
+
