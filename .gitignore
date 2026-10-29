@@ -1,0 +1,51 @@
+﻿# Compiled Java class files (do not commit newly generated ones)
+*.class
+
+# Log files
+*.log
+
+# Package Files (except pre-packaged drivers already in lib/)
+*.war
+*.ear
+
+# Virtual machines and crash logs
+hs_err_pid*
+replay_pid*
+
+# NetBeans IDE
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node / Web dependencies (for practicas-web/proyecto)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+dist-ssr/
+*.local
