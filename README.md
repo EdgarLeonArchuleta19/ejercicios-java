@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # ☕ Ejercicios de Java
 
@@ -31,25 +31,25 @@ Abarca desde fundamentos de programación orientada a objetos (POO), estructuras
 
 | Módulo / Materia | Directorio | Descripción y Temas Clave |
 | :--- | :--- | :--- |
-| **Estructuras de Datos** | [/ED](./ED) | Implementación de estructuras fundamentales: Árboles Binarios (Arbol), Pilas (Pila), Colas (Cola, ColaManual), Listas Enlazadas (iLISTA) y evaluador/conversor de expresiones aritméticas (infijas y postfijas). |
-| **Sistemas Operativos** | [/SO](./SO) | Redes y comunicación Cliente-Servidor mediante Sockets TCP/IP (Cliente.java, Servidor.java), concurrencia con hilos (Threads), sincronización y paso de mensajes. |
-| **Concurrencia y Sincronización** | [/clinica](./clinica) | Resolución clásica del problema **Productor-Consumidor** empleando un BufferCircular, monitores sincronizados y control de concurrencia en Java. |
-| **Inteligencia Artificial** | [/puzzle8](./puzzle8) | Resolución del rompecabezas clásico **8-Puzzle** mediante representación de espacio de estados, heurísticas y algoritmos de búsqueda ciega e informada. |
-| **Graficación por Computadora** | [/GRAFICACION](./GRAFICACION) | Renderizado de primitivas 2D/3D, algoritmos raster de trazado de líneas y transformaciones geométricas. |
-| **Lenguajes y Autómatas** | [/LENGUAJES](./LENGUAJES) | Compiladores: Analizador léxico (Scanner.java), analizador sintáctico (Parser.java) y evaluación de reglas gramaticales. |
-| **Métodos Numéricos** | [/MN](./MN) | Algoritmos de cálculo computacional, aproximaciones numéricas, raíces de ecuaciones y resolución matricial. |
-| **Interfaces Gráficas (MVC & Swing)** | [/proyectocatalogo](./proyectocatalogo)<br>[/Dibujo](./Dibujo)<br>[/BARAJA](./BARAJA) | • **Lienzo de Dibujo:** Aplicación gráfica interactiva tipo Paint con arquitectura MVC y Graphics2D.<br>• **Baraja Española:** Simulación interactiva con barajado dinámico e interfaz Swing.<br>• **Catálogo Comercial:** Catálogo de productos con separación desacoplada Modelo-Vista-Controlador. |
-| **Bases de Datos & JDBC** | [/BD](./BD)<br>[/SQL](./SQL)<br>[/SQL2](./SQL2)<br>[/EQUIPO](./EQUIPO) | Conexión a bases de datos relacionales (Microsoft SQL Server / MySQL) mediante JDBC (mssql-jdbc), procedimientos almacenados (CallableStatement), transacciones y consultas CRUD. |
-| **Sistemas Integrales** | [/MoviTec](./MoviTec) | Sistema de transporte y movilidad escolar con interfaz Swing, autenticación con roles diferenciados (Alumno / Empleado) y persistencia relacional. |
-| **Simulación y Probabilidad** | [/BORRACHO](./BORRACHO) | Modelado estocástico de la caminata aleatoria (*Random Walk* / Problema del Borracho) en 2D. |
-| **Laboratorio de Algoritmos** | [/PRUEBAS](./PRUEBAS) | Banco de ejercicios variados: Simulación de física (caidaparacaidista.java), cajero automático interactivo (CajeroATM.java), visualización de gráficas estadísticas (CombinedXYPlotDemo.java) y lógica algorítmica. |
-| **Desarrollo Web (Unificado)** | [/practicas-web](./practicas-web) | Módulo unificado de prácticas web: Maquetación responsive moderna con HTML5 y CSS3, examen práctico, y proyecto full-stack con backend Node.js/Express y frontend Vue.js. |
+| **Estructuras de Datos** | [`/ED`](./ED) | Implementación de estructuras fundamentales: Árboles Binarios (`Arbol`), Pilas (`Pila`), Colas (`Cola`, `ColaManual`), Listas Enlazadas (`iLISTA`) y evaluador/conversor de expresiones aritméticas (infijas y postfijas). |
+| **Sistemas Operativos** | [`/SO`](./SO) | Redes y comunicación Cliente-Servidor mediante Sockets TCP/IP (`Cliente.java`, `Servidor.java`), concurrencia con hilos (`Threads`), sincronización y paso de mensajes. |
+| **Concurrencia y Sincronización** | [`/clinica`](./clinica) | Resolución clásica del problema **Productor-Consumidor** empleando un `BufferCircular`, monitores sincronizados y control de concurrencia en Java. |
+| **Inteligencia Artificial** | [`/puzzle8`](./puzzle8) | Resolución del rompecabezas clásico **8-Puzzle** mediante representación de espacio de estados, heurísticas y algoritmos de búsqueda ciega e informada. |
+| **Graficación por Computadora** | [`/GRAFICACION`](./GRAFICACION) | Renderizado de primitivas 2D/3D, algoritmos raster de trazado de líneas y transformaciones geométricas. |
+| **Lenguajes y Autómatas** | [`/LENGUAJES`](./LENGUAJES) | Compiladores: Analizador léxico (`Scanner.java`), analizador sintáctico (`Parser.java`) y evaluación de reglas gramaticales. |
+| **Métodos Numéricos** | [`/MN`](./MN) | Algoritmos de cálculo computacional, aproximaciones numéricas, raíces de ecuaciones y resolución matricial. |
+| **Interfaces Gráficas (MVC & Swing)** | [`/proyectocatalogo`](./proyectocatalogo)<br>[`/Dibujo`](./Dibujo)<br>[`/BARAJA`](./BARAJA) | • **Lienzo de Dibujo:** Aplicación gráfica interactiva tipo Paint con arquitectura MVC y `Graphics2D`.<br>• **Baraja Española:** Simulación interactiva con barajado dinámico e interfaz Swing.<br>• **Catálogo Comercial:** Catálogo de productos con separación desacoplada Modelo-Vista-Controlador. |
+| **Bases de Datos & JDBC** | [`/BD`](./BD)<br>[`/SQL`](./SQL)<br>[`/SQL2`](./SQL2)<br>[`/EQUIPO`](./EQUIPO) | Conexión a bases de datos relacionales (Microsoft SQL Server / MySQL) mediante JDBC (`mssql-jdbc`), procedimientos almacenados (`CallableStatement`), transacciones y consultas CRUD. |
+| **Sistemas Integrales** | [`/MoviTec`](./MoviTec) | Sistema de transporte y movilidad escolar con interfaz Swing, autenticación con roles diferenciados (Alumno / Empleado) y persistencia relacional. |
+| **Simulación y Probabilidad** | [`/BORRACHO`](./BORRACHO) | Modelado estocástico de la caminata aleatoria (*Random Walk* / Problema del Borracho) en 2D. |
+| **Laboratorio de Algoritmos** | [`/PRUEBAS`](./PRUEBAS) | Banco de ejercicios variados: Simulación de física (`caidaparacaidista.java`), cajero automático interactivo (`CajeroATM.java`), visualización de gráficas estadísticas (`CombinedXYPlotDemo.java`) y lógica algorítmica. |
+| **Desarrollo Web (Unificado)** | [`/practicas-web`](./practicas-web) | Módulo unificado de prácticas web: Maquetación responsive moderna con HTML5 y CSS3, examen práctico, y proyecto full-stack con backend Node.js/Express y frontend Vue.js. |
 
 ---
 
 ## 📁 Estructura del Repositorio
 
-`	ext
+```text
 ejercicios-java/
 ├── BARAJA/                 # Juego y simulación gráfica de baraja española (Swing + AWT)
 ├── BD/                     # Conexión JDBC a base de datos, procedimientos almacenados y CRUD
@@ -74,7 +74,7 @@ ejercicios-java/
 ├── .gitignore              # Exclusiones estándar para Java, Node y entornos
 ├── LICENSE                 # Licencia de código abierto MIT
 └── README.md               # Documentación general del repositorio
-`
+```
 
 ---
 
@@ -87,7 +87,7 @@ ejercicios-java/
 ### Compilar y Ejecutar un Módulo Java
 Para compilar y ejecutar cualquier clase principal desde la terminal:
 
-`ash
+```bash
 # Ejemplo 1: Ejecutar el algoritmo del 8-Puzzle
 cd puzzle8
 javac *.java
@@ -102,31 +102,31 @@ java PruebaBuferCircular
 cd Dibujo
 javac *.java
 java Dibujo
-`
+```
 
 ### Ejecutar Módulos con Dependencias JDBC
-Algunos proyectos (BD, MoviTec, SQL) incluyen controladores JDBC en su carpeta lib/ o librerias/:
+Algunos proyectos (`BD`, `MoviTec`, `SQL`) incluyen controladores JDBC en su carpeta `lib/` o `librerias/`:
 
-`ash
+```bash
 # Compilar con el classpath apuntando a la librería
 javac -cp ".;lib/*" *.java
 
 # Ejecutar incluyendo dependencias
 java -cp ".;lib/*" Main
-`
+```
 
-*(En sistemas basados en Unix como Linux o macOS, sustituir el separador ; por :)*.
+*(En sistemas basados en Unix como Linux o macOS, sustituir el separador `;` por `:`)*.
 
 ---
 
-## 🌐 Módulo Web (/practicas-web)
+## 🌐 Módulo Web (`/practicas-web`)
 
 Para visualizar las prácticas de HTML5 y CSS3:
-- Abre cualquier archivo index.html directamente en tu navegador web preferido o mediante la extensión *Live Server* de VS Code.
+- Abre cualquier archivo `index.html` directamente en tu navegador web preferido o mediante la extensión *Live Server* de VS Code.
 
-Para ejecutar el proyecto Full-Stack (/practicas-web/proyecto):
+Para ejecutar el proyecto Full-Stack (`/practicas-web/proyecto`):
 
-`ash
+```bash
 # 1. Iniciar Backend (Node.js + Express)
 cd practicas-web/proyecto/backend
 npm install
@@ -136,7 +136,7 @@ node app.js
 cd ../frontend/tienda
 npm install
 npm run dev
-`
+```
 
 ---
 
